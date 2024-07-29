@@ -1,0 +1,10 @@
+package maximum;
+
+public class Solution {
+	public static void main(String[] args) {
+		
+		int a = Integer.SIZE;
+		
+		System.out.println(a);
+	}
+}

@@ -1,0 +1,32 @@
+package maximum;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Solution {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int T = sc.nextInt();
+		
+		int[] max = new int[T];
+		
+		for (int i=0; i<T; i++) {
+			int[] arr = new int[10];
+			for (int j=0; j<10; j++) {
+				arr[j] = sc.nextInt();
+			}
+			max[i] = 0;
+			for (int j=0; j<10; j++) {
+				if (arr[j]>max[i]) {
+					max[i]=arr[j];
+				}
+			}
+		}
+		for (int i=0; i<T; i++) {
+			System.out.println("#" + (i+1) + " " + max[i]);
+		}
+		
+	}
+}

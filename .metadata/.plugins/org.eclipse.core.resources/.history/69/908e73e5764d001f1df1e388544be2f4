@@ -1,0 +1,20 @@
+package view;
+
+import java.util.Scanner;
+
+public class Solution {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		// 테스트 케이스 10개
+		for (int i=0; i<10; i++) {
+			
+			// 건물의 개수 N 입력받기
+			int N = sc.nextInt();
+			
+			
+		}
+			
+	}
+}
